@@ -1,3 +1,4 @@
+import { IMG } from "../lib/images";
 export type Line = {
   n: string;
   name: string;
@@ -12,7 +13,7 @@ export const LINES: Line[] = [
     name: "Artisanal",
     desc: "Repurposed, deconstructed and rebuilt by hand in the Paris atelier. The laboratory of the House.",
     year: "1988",
-    img: "/margiela/artisanal.jpg",
+    img: IMG.artisanal,
   },
   {
     n: "1",
@@ -25,7 +26,7 @@ export const LINES: Line[] = [
     name: "Fragrance",
     desc: "Olfactory memory. Scents that recall a moment, a place, a temperature.",
     year: "1994",
-    img: "/margiela/replica.jpg",
+    img: IMG.replica,
   },
   {
     n: "4",
@@ -56,7 +57,7 @@ export const LINES: Line[] = [
     name: "Accessories",
     desc: "Objects of leather, hardware and intention. The bag as architecture.",
     year: "1999",
-    img: "/margiela/bag.jpg",
+    img: IMG.bag,
   },
   {
     n: "12",
@@ -81,17 +82,17 @@ export const LINES: Line[] = [
     name: "Shoes",
     desc: "The Tabi, the Replica sneaker, the future footprint.",
     year: "1989",
-    img: "/margiela/tabi.jpg",
+    img: IMG.tabi,
   },
 ];
 
 export const GALLERY = [
-  { img: "/margiela/hero.jpg", label: "Artisanal — Look 04", meta: "Paris, FW" },
-  { img: "/margiela/tabi.jpg", label: "Tabi — Calf leather", meta: "Line 22" },
-  { img: "/margiela/artisanal.jpg", label: "Reconstructed tulle", meta: "Line 0" },
-  { img: "/margiela/bag.jpg", label: "Glam Slam — Quilted", meta: "Line 11" },
-  { img: "/margiela/replica.jpg", label: "Replica — Eau de toilette", meta: "Line 3" },
-  { img: "/margiela/atelier.jpg", label: "The Atelier — Rue Saint-Maur", meta: "Paris 11e" },
+  { img: IMG.hero, label: "Artisanal — Look 04", meta: "Paris, FW" },
+  { img: IMG.tabi, label: "Tabi — Calf leather", meta: "Line 22" },
+  { img: IMG.artisanal, label: "Reconstructed tulle", meta: "Line 0" },
+  { img: IMG.bag, label: "Glam Slam — Quilted", meta: "Line 11" },
+  { img: IMG.replica, label: "Replica — Eau de toilette", meta: "Line 3" },
+  { img: IMG.atelier, label: "The Atelier — Rue Saint-Maur", meta: "Paris 11e" },
 ];
 
 export const REPLICA_MEMORIES = [
