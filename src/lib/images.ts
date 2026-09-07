@@ -2,12 +2,12 @@ const P = (id: string) =>
   `https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=900`;
 
 export const IMG = {
-  hero: "/margiela/hero.jpg",
-  artisanal: "/margiela/artisanal.jpg",
-  atelier: "/margiela/atelier.jpg",
-  tabi: "/margiela/tabi.jpg",
-  bag: "/margiela/bag.jpg",
-  replica: "/margiela/replica.jpg",
+  hero: P("13057830"),
+  artisanal: P("9595079"),
+  atelier: P("9595073"),
+  tabi: P("30229954"),
+  bag: P("9595290"),
+  replica: P("30229957"),
 
   runway1: P("13057830"),
   runway2: P("13057803"),
